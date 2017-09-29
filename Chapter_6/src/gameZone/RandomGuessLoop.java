@@ -14,8 +14,8 @@ public class RandomGuessLoop {
 		String resultString;
 		String msg = null;
 		int low = 1;
-		int high = 100;
-		int score = 10;
+		int high = 500;
+		int score = 11;
 		result = low + (int)(Math.random() * high);
 		
 		do {
@@ -41,7 +41,7 @@ public class RandomGuessLoop {
 	}while(guess != result && score !=0);
 	
 		
-			JOptionPane.showMessageDialog(null, "Game Over!");
+			JOptionPane.showMessageDialog(null, "Game Over! The Number Was "+ result);
 
 }
 }
