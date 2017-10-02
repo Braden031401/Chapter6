@@ -57,7 +57,7 @@ public class PathagoreanTheoram {
 		Area = Hypotenuse*Side1*Side2;
 		System.out.println("The Area is "+ Area);
 		Perimeter = Hypotenuse+Side1+Side2;
-		System.out.println("The Perimeter is "+ Perimeter);
+		System.out.println("And the Perimeter is "+ Perimeter);
 		
 		System.out.println("Do you wish to exit? Type 2 to Exit, Type 1 to continue");
 		Continue = scan.nextInt();
