@@ -64,7 +64,7 @@ public class PathagoreanTheoram {
 		
 		if(input1.equalsIgnoreCase(No))
 		{
-			Continue=No;
+			Continue = No;
 		}
 		if(input1.equalsIgnoreCase(EXIT))
 		{
@@ -72,7 +72,7 @@ public class PathagoreanTheoram {
 			Continue=EXIT;
 		}
 		
-	}while(Continue != EXIT);
+	}while(Continue != EXIT );
 	}
 }
 }
