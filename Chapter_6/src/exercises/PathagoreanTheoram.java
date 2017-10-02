@@ -13,7 +13,7 @@ public class PathagoreanTheoram {
 		double X;
 		double Area;
 		double Perimeter;
-		String Continue = null;
+		int Continue = 0;
 		String EXIT = null;
 		String No = null;
 		Scanner input = new Scanner(System.in);
@@ -21,8 +21,8 @@ public class PathagoreanTheoram {
 		System.out.println("If the side is missing type a 0 for the length");
 		
 		
-		{
-		do
+		
+			while(Continue <= 1 )
 		{
 		System.out.println("What is the length of Side 1?");
 		Side1 = input.nextDouble();
@@ -59,20 +59,11 @@ public class PathagoreanTheoram {
 		Perimeter = Hypotenuse+Side1+Side2;
 		System.out.println("The Perimeter is "+ Perimeter);
 		
-		System.out.println("Do you wish to exit? Type EXIT to Exit, Type No to continue");
-		String input1 = scan.nextLine();
+		System.out.println("Do you wish to exit? Type 2 to Exit, Type 1 to continue");
+		Continue = scan.nextInt();
 		
-		if(input1.equalsIgnoreCase(No))
-		{
-			Continue = No;
-		}
-		if(input1.equalsIgnoreCase(EXIT))
-		{
-			
-			Continue=EXIT;
-		}
+	
 		
-	}while(Continue != EXIT );
 	}
-}
+	}
 }
