@@ -20,7 +20,7 @@ public class RandomGuessLoop {
 		
 		do {
 			
-		resultString = JOptionPane.showInputDialog(null, "Try to guess my number between "+ low +" and "+ high);
+		resultString = JOptionPane.showInputDialog(null, "Try to guess a number between "+ low +" and "+ high);
 		guess = Integer.parseInt(resultString);
 		score = score -1;
 		if(guess==result)
@@ -41,7 +41,7 @@ public class RandomGuessLoop {
 	}while(guess != result && score !=0);
 	
 		
-			JOptionPane.showMessageDialog(null, "Game Over! The Number Was "+ result);
+			JOptionPane.showMessageDialog(null, "The Number Was "+ result);
 
 }
 }

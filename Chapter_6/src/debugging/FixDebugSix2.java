@@ -11,8 +11,8 @@ public class FixDebugSix2
       int a;
       final int MIN = 65;
       final int MAX = 122;
-      final int STOPLINE1 = 85;
-      final int STOPLINE2 = 122;
+      final int STOPLINE1 = 84;
+      final int STOPLINE2 = 104;
       for(a = MIN; a <= MAX; a++)
       {
         letter = (char)a;
@@ -21,8 +21,11 @@ public class FixDebugSix2
 {
           System.out.println();
       }
-      System.out.println("End of application");
-
+      
+    	  
+        
+ 
+      
     }
 }
 }
